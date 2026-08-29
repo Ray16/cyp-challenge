@@ -1,0 +1,7 @@
+pandas
+numpy
+scipy
+scikit-learn
+rdkit
+torch
+huggingface_hub

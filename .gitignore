@@ -1,0 +1,15 @@
+# Challenge data — download from Hugging Face (see README), do not redistribute here
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+# Generated prediction files (regenerate via scripts/)
+submissions/**/*.csv
+# Vendored third-party HF Space app (see README for upstream source)
+reference/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+models/*
+!models/.gitkeep
